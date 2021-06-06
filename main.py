@@ -124,6 +124,7 @@ def sign_in():
             if(flag == 0):
                 webbrowser.open(
                     "https://sagarmatha.student.fuseclassroom.com/live-class/schedule")
+                break
 
         else:
             print('Join Class Not Found')
